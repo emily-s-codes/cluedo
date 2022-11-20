@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluedo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Cluedo</h1>
+        <button type="button" onclick="revealMystery()">Reveal Random Solution</button>
+        <section id="solutionRevealSection">
+            <h2 id="whoDunit"></h2>
+            <section id="cardReveal">
+                <article id="suspectCard">
+                    <img id="suspectCardImg" src="" alt="">
+                    <h3 id="suspectCardSuspectName"></h3>
+                    <p id="suspectCardSuspectFirstLastAge"></p>
+                    <div id="SuspectCardOccupationDescription">
+                        <p id="SuspectCardOccupation"></p>
+                        <p id="SuspectCardDescription"></p>
+                    </div>
+                </article>
+                <section id="rightCards">
+                    <article id="weaponCard" class="small"></article>
+                    <article id="roomCard" class="small"></article>
+                </section>
+            </section>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
