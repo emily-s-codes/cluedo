@@ -11,8 +11,10 @@
 
 <body>
     <main>
-        <h1>Cluedo</h1>
-        <button type="button" onclick="revealMystery()">Reveal Random Solution</button>
+        <div id="startElements">
+            <h1>Cluedo</h1>
+            <button type="button" onclick="revealMystery()">Reveal Random Solution</button>
+        </div>
         <section id="solutionRevealSection">
             <section id="whoDunit"></section>
             <section id="cardReveal">
@@ -26,10 +28,15 @@
                     </div>
                 </article>
                 <section id="rightCards">
-                    <article id="weaponCard" class="small"></article>
-                    <article id="roomCard" class="small"></article>
+                    <article id="weaponCard" class="small">
+                        <h2 id="weaponCardOutput"></h2>
+                    </article>
+                    <article id="roomCard" class="small">
+                        <h2 id="roomCardOutput"></h2>
+                    </article>
                 </section>
             </section>
+            <button id="playAgainButton" type="button" onclick="playAgain()">Play Again</button>
         </section>
     </main>
     <script src="./assets/js/main.js"></script>
