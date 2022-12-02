@@ -42,7 +42,7 @@
 
 main {
     background-color: #B8B0B0;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h1 {
@@ -101,7 +101,7 @@ button:hover {
 }
 
 #suspectCardImg {
-    height: 60%;
+    width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: center;
@@ -193,10 +193,3 @@ button:hover {
         margin: 10px 50px;
     }
 }
-
-
-
-
-@media only screen and (min-width: 1400px) {}
-
-@media only screen and (min-width: 1400px) {}
